@@ -1,0 +1,13 @@
+[project]
+name = "my-professional-twin"
+version = "0.1.0"
+description = "My professional twin who can answer questions about my career"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "gradio>=6.2.0",
+    "ipykernel>=7.1.0",
+    "openai>=2.14.0",
+    "requests>=2.32.5",
+]
